@@ -28,7 +28,7 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
     ports:
-      - 3400:80
+      - 3400:3400
     depends_on:
       - db
 
